@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  height: 100vh;
+  background-color: beige;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.poll-intro-container {
+  text-align: center;
+}
+
+.intro-title {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+
+.subject-container {
+  padding-top: 25px;
+  color: navy;
+  font-style: italic;
+  font-size: 18pt;
+  font-feature-settings: "smcp";
+}
+
+.options-bar {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.vote-button-bar {
+  margin-top: 25px;
+}
+
+.vote-button-bar > button {
+  width: 250px;
+  height: 35px;
+  color: white;
+  font-size: larger;
+  background-color: darkblue;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.poll-option {
+  margin-right: 15px;
+}
+
+.results-container {
+  margin-top: 30px;
+}
+
+.results-caption {
+  color:green;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 20px;
+}
