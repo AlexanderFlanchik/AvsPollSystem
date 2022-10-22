@@ -1,2 +1,2 @@
 # AvsPollSystem
-React/Redux + toolkit / Spring WebFlux Spring Data Mongo Db Reactive demo
+React/Redux + toolkit / Spring WebFlux Spring Data MongoDb Reactive demo
